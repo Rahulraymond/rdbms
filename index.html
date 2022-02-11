@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>RDBMS</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <nav id="navbar">
+    <header>MySQL</header>
+    <ul>
+      <li><a class="nav-link" href="#What is SQL?">What is SQL?</a></li>
+      <li>
+        <a class="nav-link" href="#What Can SQL do?">What Can SQL do?</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#SQL is a Standard - BUT....">SQL is a Standard - BUT....</a>
+      </li>
+      <li><a class="nav-link" href="#Using SQL in Your Web Site">Using SQL in Your Web Site</a></li>
+      <li><a class="nav-link" href="#RDBMS">RDBMS</a></li>
+
+      <li><a class="nav-link" href="#Reference">Reference</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="What is SQL?">
+      <header>What is SQL?</header>
+      <article>
+        <p>
+          SQL stands for Structured Query Language<br>
+          SQL lets you access and manipulate databases<br>
+          SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International
+          Organization for Standardization (ISO) in 1987.<br>
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="What Can SQL do?">
+      <header>What Can SQL do?</header>
+      <article>
+        <p>
+
+
+          SQL can execute queries against a database<br>
+          SQL can retrieve data from a database<br>
+          SQL can insert records in a database<br>
+          SQL can update records in a database<br>
+          SQL can delete records from a database<br>
+          SQL can create new databases<br>
+          SQL can create new tables in a database<br>
+          SQL can create stored procedures in a database<br>
+          SQL can create views in a database<br>
+          SQL can set permissions on tables, procedures, and views<br>
+
+        </p>
+
+      </article>
+    </section>
+    <section class="main-section" id="SQL is a Standard - BUT....">
+      <header>SQL is a Standard - BUT....</header>
+      <article>
+        <p>
+
+          Although SQL is an ANSI/ISO standard, there are different versions of the SQL language.<br>
+
+          However, to be compliant with the ANSI standard, they all support at least the major commands (such as SELECT,
+          UPDATE, DELETE, INSERT, WHERE) in a similar manner.<br>
+
+          Note: Most of the SQL database programs also have their own proprietary extensions in addition to the SQL
+          standard!<br>
+        </p>
+
+
+      </article>
+    </section>
+    <section class="main-section" id="Using SQL in Your Web Site">
+      <header> Using SQL in Your Web Site</header>
+      <article>
+        <p>
+
+
+          To build a web site that shows data from a database, you will need:<br>
+
+          An RDBMS database program (i.e. MS Access, SQL Server, MySQL)<br>
+          To use a server-side scripting language, like PHP or ASP<br>
+          To use SQL to get the data you want<br>
+          To use HTML / CSS to style the page<br>
+
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="RDBMS">
+      <header>RDBMS</header>
+      <article>
+        <p>
+
+          RDBMS stands for Relational Database Management System.<br>
+
+          RDBMS is the basis for SQL, and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL,
+          and Microsoft Access.<br>
+
+          The data in RDBMS is stored in database objects called tables. A table is a collection of related data entries
+          and it consists of columns and rows.<br>
+
+        </p>
+        <p>
+          Look at the "Customers" table: </p>
+
+        <code>SELECT * FROM Customers;</code>
+        <p>
+          Every table is broken up into smaller entities called fields. The fields in the Customers table consist of
+          CustomerID, CustomerName, ContactName, Address, City, PostalCode and Country. A field is a column in a table
+          that is designed to maintain specific information about every record in the table.<br>
+
+          A record, also called a row, is each individual entry that exists in a table. For example, there are 91
+          records in the above Customers table. A record is a horizontal entity in a table.<br>
+
+          A column is a vertical entity in a table that contains all information associated with a specific field in a
+          table.<br>
+
+        </p>
+
+      </article>
+    </section>
+    <section class="main-section" id="Reference">
+      <header>Reference</header>
+      <article>
+        <ul>
+          <li>
+            All the documentation in this page is taken from
+            <a id="reference" href="https://www.w3schools.com/sql/sql_intro.asp" target="_blank">W3SCHOOLS</a>
+          </li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <!-- partial -->
+
+</body>
+
+</html>
